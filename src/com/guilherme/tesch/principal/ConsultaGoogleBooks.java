@@ -17,7 +17,7 @@ public class ConsultaGoogleBooks {
         System.out.print("Digite o nome de um livro: ");
         var livro = sc.nextLine();
 
-        var enderco = "https://www.googleapis.com/books/v1/volumes?q=" + livro + "AIzaSyA52rV_TC3AhBen9L2YERnmQPRzkeDdr_c";
+        var enderco = "https://www.googleapis.com/books/v1/volumes?q=" + livro + "SUA CHAVE";
 
         HttpClient client = HttpClient.newHttpClient();
 
